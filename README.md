@@ -116,7 +116,7 @@ El repositorio contiene los diagramas completos del proyecto:
 
 ---
 
-# Fotografías del sistema (colocar aquí)
+# Fotografías del sistema
 
 ### Carro completo  
 <img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/62e29e44-6b2c-4b0a-9f9c-294cce091076" />

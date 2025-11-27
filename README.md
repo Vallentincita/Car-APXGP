@@ -124,7 +124,7 @@ El repositorio contiene los diagramas completos del proyecto:
 Agrega tus imágenes en `/media/` y enlázalas aquí:
 
 ### Carro completo  
-![Carro APXGP](media/carro_completo.jpg)
+<img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/62e29e44-6b2c-4b0a-9f9c-294cce091076" />
 
 ### Control remoto  
 ![Control](media/control.jpg)

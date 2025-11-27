@@ -13,6 +13,8 @@ Este repositorio contiene el diseño completo del sistema de telemetría inalám
 
 El sistema está compuesto por cuatro módulos principales, cada uno diseñado con un PCB propio:
 
+<img width="1920" height="1080" alt="El texto del párrafo" src="https://github.com/user-attachments/assets/06fdd54b-efca-48d6-aab9-8816f2ad3af1" />
+
 ## Módulo de Sensores (Carro)
 Ubicado en el vehículo, incluye:
 

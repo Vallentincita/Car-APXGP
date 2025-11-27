@@ -128,18 +128,16 @@ El repositorio contiene los diagramas completos del proyecto:
 ### PCB receptor  
 <img width="1600" height="1201" alt="image" src="https://github.com/user-attachments/assets/c5af62ab-3753-4c7e-ae61-5e92b0bfc14a" />
 
-
-```
 ---
 
-# Autores
+Autores
 
-**Vallentina Diaz Valbuena**  
-**Juan Esteban Mora Vaca**  
-**Luis Carlos Leal Gamboa**  
-**Brayan Steven Mendivelso Perez**
+Vallentina Diaz Valbuena 
+Juan Esteban Mora Vaca  
+Luis Carlos Leal Gamboa  
+Brayan Steven Mendivelso Perez
 
-Docente: **José de Jesús Rugeles**
+Docente: José de Jesús Rugeles
 
 ---
 

@@ -3,7 +3,7 @@
 
 ---
 
-## 📌 Descripción del proyecto
+## Descripción del proyecto
 
 Este repositorio contiene el diseño completo del **sistema de telemetría inalámbrica y control remoto** desarrollado para el vehículo RC **APXGP**, como parte del RC Cars Telemetry Challenge 2025.  
 El sistema utiliza microcontroladores **Raspberry Pi Pico 2W**, transceptores **nRF24L01**, sensores obligatorios, PCBs personalizadas y una aplicación de telemetría en PC que muestra los datos del carro en tiempo real.
@@ -12,11 +12,11 @@ El proyecto cumple todos los requisitos del curso, integrando conceptos de comun
 
 ---
 
-# 🧩 Arquitectura general del sistema
+# Arquitectura general del sistema
 
 El sistema está compuesto por **cuatro módulos principales**, cada uno diseñado con un PCB propio:
 
-## 1️⃣ Módulo de Sensores (Carro)
+## Módulo de Sensores (Carro)
 Ubicado en el vehículo, incluye:
 
 - MPU6050 – IMU (I2C)  
@@ -31,7 +31,7 @@ Encargado de transmitir telemetría en tiempo real al puesto de recepción.
 
 ---
 
-## 2️⃣ Módulo de Actuadores (Carro)
+## Módulo de Actuadores (Carro)
 Recibe las órdenes del piloto mediante un segundo enlace RF:
 
 - Control del servomotor (PWM)  
@@ -42,7 +42,7 @@ Recibe las órdenes del piloto mediante un segundo enlace RF:
 
 ---
 
-## 3️⃣ Control Remoto
+## Control Remoto
 Diseñado sobre una PCB ergonómica:
 
 - 2 joysticks analógicos  
@@ -55,7 +55,7 @@ Envía paquetes digitales continuamente con dirección, velocidad y estado del s
 
 ---
 
-## 4️⃣ Puesto de Recepción (Gateway RF → USB)
+## Puesto de Recepción (Gateway RF → USB)
 Opera como puente entre el enlace RF y la aplicación en PC:
 
 - Pico 2W  
@@ -65,7 +65,7 @@ Opera como puente entre el enlace RF y la aplicación en PC:
 
 ---
 
-# 🛰️ Enlaces inalámbricos
+# Enlaces inalámbricos
 
 El sistema trabaja con **dos canales independientes**:
 
@@ -76,7 +76,7 @@ Ambos utilizan modulación **GFSK**, paquetes de 1 MHz y CRC para robustez.
 
 ---
 
-# 🖥️ Aplicación de Telemetría en PC
+# Aplicación de Telemetría en PC
 
 Desarrollada para visualizar los datos en tiempo real:
 
@@ -92,7 +92,7 @@ El sistema permite análisis posterior de carrera, comparación de vueltas y dia
 
 ---
 
-# 🔧 Mediciones de laboratorio
+# Mediciones de laboratorio
 
 El diseño fue validado con:
 
@@ -104,7 +104,7 @@ Estas mediciones comprobaron estabilidad y correcta configuración del enlace.
 
 ---
 
-# 📐 Diagramas técnicos incluidos
+# Diagramas técnicos incluidos
 
 El repositorio contiene los diagramas completos del proyecto:
 
@@ -119,7 +119,7 @@ El repositorio contiene los diagramas completos del proyecto:
 
 ---
 
-# 📸 Fotografías del sistema (colocar aquí)
+# Fotografías del sistema (colocar aquí)
 
 Agrega tus imágenes en `/media/` y enlázalas aquí:
 
@@ -139,7 +139,7 @@ Agrega tus imágenes en `/media/` y enlázalas aquí:
 ```
 ---
 
-# 👥 Autores
+# Autores
 
 **Vallentina Diaz Valbuena**  
 **Juan Esteban Mora Vaca**  
@@ -149,7 +149,5 @@ Agrega tus imágenes en `/media/` y enlázalas aquí:
 Docente: **José de Jesús Rugeles**
 
 ---
-
-# 📄 Licencia
 
 Este proyecto es de carácter académico para el curso de Comunicaciones Digitales — UMNG.

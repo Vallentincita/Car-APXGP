@@ -5,10 +5,7 @@
 
 ## Descripción del proyecto
 
-Este repositorio contiene el diseño completo del sistema de telemetría inalámbrica y control remoto desarrollado para el vehículo RC APXGP, como parte del RC Cars Telemetry Challenge 2025.  
-El sistema utiliza microcontroladores Raspberry Pi Pico 2W, transceptores nRF24L01, sensores obligatorios, PCBs personalizadas y una aplicación de telemetría en PC que muestra los datos del carro en tiempo real.
-
-El proyecto cumple todos los requisitos del curso, integrando conceptos de comunicaciones digitales, modulación digital, protocolos, enlace RF, diseño electrónico, procesamiento de señales y análisis de datos.
+Este repositorio contiene el diseño completo del sistema de telemetría inalámbrica y control remoto desarrollado para el vehículo RC APXGP, como parte del RC Cars Telemetry Challenge 2025. El sistema utiliza microcontroladores Raspberry Pi Pico 2W, transceptores nRF24L01, sensores obligatorios, PCBs personalizadas y una aplicación de telemetría en PC que muestra los datos del carro en tiempo real. El proyecto cumple todos los requisitos del curso, integrando conceptos de comunicaciones digitales, modulación digital, protocolos, enlace RF, diseño electrónico, procesamiento de señales y análisis de datos.
 
 ---
 

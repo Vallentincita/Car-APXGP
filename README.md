@@ -127,13 +127,13 @@ Agrega tus imágenes en `/media/` y enlázalas aquí:
 <img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/62e29e44-6b2c-4b0a-9f9c-294cce091076" />
 
 ### Control remoto  
-![Control](media/control.jpg)
+<img width="1600" height="1201" alt="image" src="https://github.com/user-attachments/assets/02ac550a-7589-45b0-8fec-1f5951ab0c1f" />
 
 ### PCB sensores  
-![PCB Sensores](media/pcb_sensores.jpg)
+<img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/34957b9f-1079-4559-b2ba-0d02ed825210" />
 
 ### PCB receptor  
-![PCB Receptor](media/pcb_receptor.jpg)
+<img width="1600" height="1201" alt="image" src="https://github.com/user-attachments/assets/c5af62ab-3753-4c7e-ae61-5e92b0bfc14a" />
 
 
 ```

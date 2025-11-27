@@ -5,8 +5,8 @@
 
 ## Descripción del proyecto
 
-Este repositorio contiene el diseño completo del **sistema de telemetría inalámbrica y control remoto** desarrollado para el vehículo RC **APXGP**, como parte del RC Cars Telemetry Challenge 2025.  
-El sistema utiliza microcontroladores **Raspberry Pi Pico 2W**, transceptores **nRF24L01**, sensores obligatorios, PCBs personalizadas y una aplicación de telemetría en PC que muestra los datos del carro en tiempo real.
+Este repositorio contiene el diseño completo del sistema de telemetría inalámbrica y control remoto desarrollado para el vehículo RC APXGP, como parte del RC Cars Telemetry Challenge 2025.  
+El sistema utiliza microcontroladores Raspberry Pi Pico 2W, transceptores nRF24L01, sensores obligatorios, PCBs personalizadas y una aplicación de telemetría en PC que muestra los datos del carro en tiempo real.
 
 El proyecto cumple todos los requisitos del curso, integrando conceptos de comunicaciones digitales, modulación digital, protocolos, enlace RF, diseño electrónico, procesamiento de señales y análisis de datos.
 
@@ -14,7 +14,7 @@ El proyecto cumple todos los requisitos del curso, integrando conceptos de comun
 
 # Arquitectura general del sistema
 
-El sistema está compuesto por **cuatro módulos principales**, cada uno diseñado con un PCB propio:
+El sistema está compuesto por cuatro módulos principales, cada uno diseñado con un PCB propio:
 
 ## Módulo de Sensores (Carro)
 Ubicado en el vehículo, incluye:
@@ -67,12 +67,10 @@ Opera como puente entre el enlace RF y la aplicación en PC:
 
 # Enlaces inalámbricos
 
-El sistema trabaja con **dos canales independientes**:
+El sistema trabaja con dos canales independientes:
 
 - **Canal A:** Control → Carro  
-- **Canal B:** Telemetría → Puesto de recepción  
-
-Ambos utilizan modulación **GFSK**, paquetes de 1 MHz y CRC para robustez.
+- **Canal B:** Telemetría → Puesto de recepción
 
 ---
 
@@ -86,7 +84,7 @@ Desarrollada para visualizar los datos en tiempo real:
 - Mapa GPS del carro  
 - Valores PWM (motor y servo)  
 - Estado del enlace RF  
-- Registro **automático en CSV**  
+- Registro automático en CSV
 
 El sistema permite análisis posterior de carrera, comparación de vueltas y diagnóstico del vehículo.
 

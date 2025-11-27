@@ -135,54 +135,8 @@ Agrega tus imágenes en `/media/` y enlázalas aquí:
 ### PCB receptor  
 ![PCB Receptor](media/pcb_receptor.jpg)
 
----
-
-# 🛠️ Cómo ejecutar la aplicación
-
-### 1. Conectar el puesto de recepción vía USB  
-El dispositivo enviará líneas de telemetría por puerto serial.
-
-### 2. Ejecutar la aplicación en PC  
-(Agregar instrucciones dependiendo de tu lenguaje: Python, C#, Java, etc.)
-
-Ejemplo Python:
-```bash
-python app_telemetria.py
-```
-
-### 3. Iniciar el carro  
-La telemetría comenzará a recibirse y graficarse automáticamente.
-
----
-
-# 📂 Estructura del repositorio
 
 ```
-Car-APXGP/
-│
-├── docs/               → Informe técnico y diagramas
-├── hardware/           → PCB, esquemáticos, Gerbers
-├── media/              → Fotos, capturas y videos
-├── data/               → CSV generados por la telemetría
-├── firmware/           → Código del carro, control y receptor
-├── pc_app/             → Aplicación de telemetría en PC
-└── README.md           → Este archivo
-```
-
----
-
-# 🤖 Proceso de diseño asistido por IA
-
-Este proyecto integró herramientas de IA (ChatGPT, Cursor, GitHub Copilot, Perplexity) para:
-
-- refactorización de código en MicroPython  
-- documentación técnica  
-- análisis de problemas de RF  
-- corrección del flujo SPI  
-- generación de diagramas conceptuales  
-
-Todas las decisiones finales fueron verificadas mediante pruebas físicas.
-
 ---
 
 # 👥 Autores
